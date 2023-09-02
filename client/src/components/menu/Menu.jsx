@@ -5,9 +5,9 @@ import LogoImg from "../../assets/logo.png";
 const Menu = () => {
   return (
     // menu section 
-    <section className=' bg-[#FAF7F2]'>
+    <section className="z-50 fixed w-full" >
         
-        <div className='lg:w-[1300px]  w-4/5 lg:h-[100px] h-[80px] m-auto flex flex-wrap items-center px-[7px]'>
+        <div className='  lg:w-[1300px]  w-4/5 lg:h-[100px] h-[80px] m-auto flex flex-wrap items-center px-[7px]'>
             {/* navbar logo section  */}
             <div className='lg:w-[16%] w-[55%]'>
                 <img src={LogoImg} alt='foodka logo'/>
@@ -32,14 +32,14 @@ const Menu = () => {
 1
                 </div>
                 {/* price  */}
-                <p>49.50$</p>
+                <p className='font-medium'>49.50$</p>
             </div>
 
             {/* contact section  */}
             <div className='lg:w-[12%] w-[20%] flex flex-wrap items-center justify-around '>
             <FaPhoneVolume  className='lg:text-2xl text-lg'/>
                 {/* telephone icon  */}
-                <p>+997509153849</p>
+                <p className='font-medium'>+997509153849</p>
             </div>
 
             <div className='w-[5%] lg:hidden pl-3 text-center h-auto'>
