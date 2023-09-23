@@ -7,20 +7,24 @@ import SingleAboutCard from "./SingleAboutCard";
 
 const RightAbout = () => {
   return (
-    <div className="w-[50%]">
-      <h2 className="font-[Satisfy] text-3xl text-[#dc2626]">Why choose us</h2>
-      <h1 className="text-[42px] font-semibold my-6">Why we are the best</h1>
-      <p className="text-[#5f5f5f]">
+    <div className="w-[640px] lg:w-[640px] md:w-full text-center ">
+      <h2 className="font-[Satisfy] text-center text-2xl sm:text-3xl lg:text-left  text-[#dc2626]">
+        Why choose us
+      </h2>
+      <h1 className="text-[28px] md:text-[35px] lg:text-[42px] text-center lg:text-left  font-semibold my-1 sm:my-6 md:my-2 text-[#292929]">
+        Why we are the best
+      </h1>
+      <p className="text-[#5f5f5f] text-center lg:text-left leading-7 md:leading-7">
         A, blandit euismod ullamcorper vestibulum enim habitasse. Ultrices
         tincidunt scelerisque elit enim. A neque malesuada in tortor eget justo
         mauris nec dolor. Consequat risus vitae, ac ac et preparation. He wanted
         to serve burgers, fries and beverages that tasted .
       </p>
-      <div className="flex flex-wrap mt-8">
-      <SingleAboutCard img={iconOne} title={"Fresh Food"}/>
-      <SingleAboutCard img={iconeTwo} title={"Fast Delivery"}/>
-      <SingleAboutCard img={iconThree} title={"Quality Maintain"}/>
-      <SingleAboutCard img={iconFour} title={" 24/7 Service"}/>
+      <div className="flex flex-wrap justify-around mt-8">
+        <SingleAboutCard img={iconOne} title={"Fresh Food"} />
+        <SingleAboutCard img={iconeTwo} title={"Fast Delivery"} />
+        <SingleAboutCard img={iconThree} title={"Quality Maintain"} />
+        <SingleAboutCard img={iconFour} title={" 24/7 Service"} />
       </div>
     </div>
   );

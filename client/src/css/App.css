@@ -20,3 +20,11 @@ p {
   padding: 0;
   margin: 0;
 }
+
+@layer base {
+  :root {
+    --color-red: rgb(206, 40, 41);
+
+    /* ... */
+  }
+}
