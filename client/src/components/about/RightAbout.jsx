@@ -7,7 +7,7 @@ import SingleAboutCard from "./SingleAboutCard";
 
 const RightAbout = () => {
   return (
-    <div className="w-[640px] lg:w-[640px] md:w-full text-center ">
+    <div className="w-[640px] lg:w-[480px] xl:w-[570px] 2xl:w-[660px] md:w-full text-center px-3">
       <h2 className="font-[Satisfy] text-center text-2xl sm:text-3xl lg:text-left  text-[#dc2626]">
         Why choose us
       </h2>

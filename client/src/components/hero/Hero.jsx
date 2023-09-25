@@ -8,7 +8,7 @@ const Hero = () => {
     // hero wrapper
     <section className="hero_wrapper">
       {/* hero container  */}
-      <div className="w-[100%] bg-[#FAF7F2] m-auto h-[100vh] relative  overflow-hidden">
+      <div className="w-[100%] bg-[#FAF7F2] m-auto h-[85vh] sm:h-[94vh] xl:h-[100vh] relative  overflow-hidden">
         <MoveBg />
         <HeroContent />
       </div>

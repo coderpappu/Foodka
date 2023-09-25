@@ -7,8 +7,9 @@ import IntroCard from "./IntroCard";
 const Intro = () => {
   return (
     <>
-      <section className="intro_contact_area h-auto pt-6 pb-10 bg-[#FAF7F2]">
-        <div className="lg:w-full xl:w-[1320px]  w-full px-3  m-auto flex flex-wrap justify-around">
+      {/* w-full sm:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px] */}
+      <section className="intro_contact_area h-auto pt-6 pb-[85px]  bg-[#FAF7F2]">
+        <div className="w-full lg:w-full xl:w-[1140px] 2xl:w-[1320px]  px-3  m-auto flex flex-wrap justify-around">
           <IntroCard
             img={Calender}
             headline={"Mon-fri : 10AM -9:30PM"}
