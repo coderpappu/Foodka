@@ -5,6 +5,7 @@ import Hero from "../components/hero/Hero";
 import Intro from "../components/intro/Intro";
 import Menu from "../components/menu/Menu";
 import OfferArea from "../components/offer-area/OfferArea";
+import Check from "../components/checkMan/Check";
 const Home = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Home = () => {
       <Intro />
       <About />
       <OfferArea />
+      <Check />
     </>
   );
 };
