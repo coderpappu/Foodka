@@ -1,17 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import Ramen from "../../assets/filterFood/1.png";
+import { twMerge } from "tailwind-merge";
 
 const FilterBtn = () => {
-  // color change todo
-  // hover and click bg : bg-[#292929]
-  // normal bg : #FAF7F2
+  let [clicked, setClick] = useState(false);
 
+  let handleClick = () => {
+    if (clicked == true) {
+      setClick(false);
+    } else {
+      setClick(true);
+    }
+  };
   return (
-    <div className="h-[70px] w-[270px] sm:w-[135px] xl:h-[80px] xl:w-[200px] py-[8px] px-[16px]  bg-[#Faf7f2] rounded-[50px] flex flex-wrap justify-center text-center items-center">
+    <div
+      onClick={handleClick}
+      className={twMerge(
+        "h-[70px] w-[270px] sm:w-[135px] xl:h-[80px] xl:w-[200px] py-[8px] px-[16px]  bg-[#Faf7f2] rounded-[50px] flex flex-wrap justify-center text-center items-center cursor-pointer",
+        clicked && "bg-[#292929] "
+      )}
+    >
       <div className="mr-2">
         <img src={Ramen} alt="ramen" />
       </div>
-      <div className="text-[16px] xl:text-[18px] font-medium text-[#fff] ">
+      <div
+        className={twMerge(
+          "text-[16px] xl:text-[18px] font-medium text-[#000] ",
+          clicked && "text-[#fff]"
+        )}
+      >
         Ramen
       </div>
     </div>
