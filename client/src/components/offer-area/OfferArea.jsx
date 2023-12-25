@@ -7,8 +7,6 @@ const OfferArea = () => {
     <>
       <BurgerOffer />
       <SingleOffer />
-
-      <div className="h-[200px]"></div>
     </>
   );
 };

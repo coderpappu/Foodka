@@ -5,6 +5,7 @@ import Hero from "../components/hero/Hero";
 import Intro from "../components/intro/Intro";
 import Menu from "../components/menu/Menu";
 import OfferArea from "../components/offer-area/OfferArea";
+import SignatureFood from "../components/food/SignatureFood";
 const Home = () => {
   return (
     <>
@@ -13,6 +14,9 @@ const Home = () => {
       <Intro />
       <About />
       <OfferArea />
+      <SignatureFood />
+
+      <div className="h-[200px]"></div>
     </>
   );
 };

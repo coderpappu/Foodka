@@ -28,3 +28,9 @@ p {
     /* ... */
   }
 }
+
+@layer components {
+  .responsive-wrapper {
+    @apply w-full sm:w-smw md:w-mdw lg:w-lgw xl:w-xlw 2xl:w-xxlw px-6 sm:px-3 md:px-3 lg:px-0   m-auto  overflow-hidden;
+  }
+}
