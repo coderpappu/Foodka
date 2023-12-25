@@ -14,25 +14,34 @@ const SingleOffer = () => {
           altText="This is a demo text"
           heading="Enjoy 30% CashBack"
           paraText="Up to $70 on all Bkash"
-          textStyle={
+          headingTxtStyle={
             "text-[36px] leading-[44px] mb-3 font-bold  text-[#fdc913]"
+          }
+          paraTxtStyle={
+            "text-[#fff] text-[20px] sm:text-[24px] lg:text-[22px] md:text-[24px]"
           }
         />
         <OfferCard
           image={cardImgTwo}
           altText="This is a demo text"
-          heading="25 EXTRA FREE ON KFC"
+          heading="25 EXTRA FREE"
           paraText="Up to $70 on all Bkash"
-          textStyle={
-            "text-[36px] leading-[44px] mb-3 font-extrabold text-center  text-[red]"
+          paraTxtStyle={
+            "text-[#919191] text-[20px] sm:text-[24px] lg:text-[22px] md:text-[24px] text-center"
+          }
+          headingTxtStyle={
+            "text-[36px] leading-[44px] mb-3 font-extrabold text-center  text-[#030a3b]"
           }
         />
         <OfferCard
           image={cardImgThree}
           altText="This is a demo text"
-          heading="JAPANESE FOOD AT HOME"
+          heading="JAPANESE FOOD "
           paraText="Up to $70 on all Bkash"
-          textStyle={
+          paraTxtStyle={
+            "text-[#fff] text-[20px] sm:text-[24px] lg:text-[22px] md:text-[24px]"
+          }
+          headingTxtStyle={
             "text-[36px] leading-[44px] mb-3 font-bold  text-[#fdc913]"
           }
         />
