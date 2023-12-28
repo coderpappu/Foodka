@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import Ramen from "../../assets/filterFood/1.png";
 import { twMerge } from "tailwind-merge";
 
-const FilterBtn = ({ idFuncClick, buttonID, genId }) => {
-  
-
+const FilterBtn = ({ idFuncClick, buttonID, genId, btnData }) => {
   return (
     <div
       onClick={() => idFuncClick(genId)}
@@ -14,7 +12,7 @@ const FilterBtn = ({ idFuncClick, buttonID, genId }) => {
       )}
     >
       <div className="mr-2">
-        <img src={Ramen} alt="ramen" />
+        <img src={btnData.img} alt="ramen" />
       </div>
       <div
         className={twMerge(
@@ -22,7 +20,7 @@ const FilterBtn = ({ idFuncClick, buttonID, genId }) => {
           buttonID == genId ? "text-[#fff]" : "text-[#000] "
         )}
       >
-        Ramen
+        {btnData.title}
       </div>
     </div>
   );
