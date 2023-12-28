@@ -32,10 +32,6 @@ const FoodFilter = () => {
           genId={data.id}
         />
       ))}
-      {/* <FilterBtn idFuncClick={idHandler} buttonID={buttonID} genId={2} />
-      <FilterBtn idFuncClick={idHandler} buttonID={buttonID} genId={3} />
-      <FilterBtn idFuncClick={idHandler} buttonID={buttonID} genId={4} />
-      <FilterBtn idFuncClick={idHandler} buttonID={buttonID} genId={5} /> */}
     </div>
   );
 };

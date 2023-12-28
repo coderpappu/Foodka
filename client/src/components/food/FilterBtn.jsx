@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Ramen from "../../assets/filterFood/1.png";
+
 import { twMerge } from "tailwind-merge";
 
 const FilterBtn = ({ idFuncClick, buttonID, genId, btnData }) => {

@@ -1,6 +1,8 @@
 import React from "react";
 import SignatureHeader from "./SignatureHeader";
 import FoodFilter from "./FoodFilter";
+import Card from "./Card";
+import FoodCards from "./FoodCards";
 
 const SignatureFood = () => {
   return (
@@ -11,6 +13,7 @@ const SignatureFood = () => {
         {/* Filter Section  */}
         <FoodFilter />
         {/* Foods Show section  */}
+        <FoodCards />
       </div>
     </>
   );
