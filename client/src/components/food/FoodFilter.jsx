@@ -10,7 +10,7 @@ import SoftdrinkImg from "../../assets/filterFood/6.png";
 const FoodFilter = () => {
   let initialData = [
     { id: 1, title: "Ramen", img: RamenImg },
-    { id: 2, title: "Ramen", img: PizzaImg },
+    { id: 2, title: "Pizza", img: PizzaImg },
     { id: 3, title: "BurgerImg", img: BurgerImg },
     { id: 4, title: "French fries", img: FrenchImg },
     { id: 5, title: "Fast food", img: FastFoodImg },
