@@ -2,7 +2,7 @@ import React from "react";
 import ChooseFood from "../../assets/chooseFood.png";
 const ExcellentFood = () => {
   return (
-    <div className="w-full h-[869px] sm:h-[980px] md:h-[1116px] lg:h-[765px] bg-no-repeat bg-cover bg-center  mt-20 pt-[100px] bg-[url('https://res.cloudinary.com/dpfpz6upr/image/upload/v1704115474/exbg_f6gujs.png')] ">
+    <div className="w-full h-[869px] sm:h-[980px] md:h-[1116px] lg:h-[730px] bg-no-repeat bg-cover bg-center  mt-20 pt-[100px] bg-[url('https://res.cloudinary.com/dpfpz6upr/image/upload/v1704115474/exbg_f6gujs.png')] bg-[#FAF7F2] ">
       <div className="responsive-wrapper  flex flex-wrap flex-col-reverse lg:flex-row overflow-visible">
         <div className="w-full text-center lg:text-left lg:w-[50%]">
           <h2 className="text-[25px] text-center lg:text-left lg:text-[32px] text-[#ce2829] font-[Satisfy]">
