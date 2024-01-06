@@ -4,7 +4,7 @@ import OfferImg from "../../../assets/offer/burger.png";
 const BurgerOffer = () => {
   return (
     // width control div
-    <div className="w-full sm:w-smw md:w-mdw lg:w-lgw xl:w-xlw 2xl:w-xxlw px-6 sm:px-3 md:px-3 lg:px-0   m-auto  overflow-hidden ">
+    <div className="responsive-wrapper">
       {/* full section wrapper  */}
       <div className="flex flex-wrap pt-[100px] sm:pt-3 md:pt-9 lg:pt-[55px]  rounded-[12px] h-[305px] sm:h-[210px] md:h-[270px] lg:h-[410px] bg-[#fdc913] relative">
         {/* offer area text side  */}

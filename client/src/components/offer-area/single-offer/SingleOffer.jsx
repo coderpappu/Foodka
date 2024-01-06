@@ -6,7 +6,7 @@ import OfferCard from "./OfferCard";
 
 const SingleOffer = () => {
   return (
-    <div className="w-full sm:w-smw md:w-mdw lg:w-lgw xl:w-xlw 2xl:w-xxlw px-6 sm:px-3 md:px-3 lg:px-0   m-auto  overflow-hidden mt-8">
+    <div className="responsive-wrapper mt-8">
       {/* full section wrapper  */}
       <div className="card-wrapper flex flex-wrap justify-between md:justify-around lg:justify-between ">
         <OfferCard
