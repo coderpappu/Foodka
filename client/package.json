@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "build-css": "tailwindcss build src/css/App.css",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
   },
   "eslintConfig": {
     "extends": [
@@ -47,7 +48,17 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "babel-eslint": "^10.1.0",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "4.3.0",
     "postcss": "^8.4.27",
+    "prettier": "^3.1.1",
     "tailwindcss": "^3.3.3"
   }
 }
